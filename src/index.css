@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@import "@fontsource/ibm-plex-mono"; 
+@import "@fontsource/ibm-plex-mono/400.css"; 
+@import "@fontsource/ibm-plex-mono/400-italic.css"; 
+
+body {
+  font-family: "IBM Plex Mono";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 100px; /* navbar height */
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
+.float {
+  animation: float 4s ease-in-out infinite;
+}
+
