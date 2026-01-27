@@ -22,13 +22,13 @@ Error generating stack: `+a.message+`
       max-w-6xl 
       w-full 
       mt-10
-    `,children:[E.jsxs("div",{className:"space-y-4 text-center md:text-left",children:[E.jsx("h1",{className:"text-3xl sm:text-4xl md:text-[44px] font-extrabold text-white",children:"Thareesha Deepthaka"}),E.jsxs("p",{className:"text-sm text-[#9C9C9C] max-w-xl mx-auto md:mx-0",children:["I’m a ",E.jsx("b",{children:"Frontend Developer"})," focused on building clean, responsive, and user-friendly web interfaces. I enjoy turning complex ideas into intuitive digital experiences using modern frontend technologies."]}),E.jsxs("a",{href:"/cv.pdf",download:"Tharisha_Deepthaka_CV.pdf",className:`
-          inline-flex items-center justify-center gap-2
-          bg-[#62BA1B] text-[#FFF6E9]
-          px-5 py-2 mt-4
-          rounded-sm
-          hover:opacity-90 transition
-        `,children:["Download CV",E.jsx("svg",{className:"w-5 h-5",xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24",stroke:"currentColor",strokeWidth:"2",children:E.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2m-8 1V4m0 12-4-4m4 4 4-4"})})]})]}),E.jsx("div",{className:"flex justify-center",children:E.jsx("div",{className:`
+    `,children:[E.jsxs("div",{className:"space-y-4 text-center md:text-left",children:[E.jsx("h1",{className:"text-3xl sm:text-4xl md:text-[44px] font-extrabold text-white",children:"Thareesha Deepthaka"}),E.jsxs("p",{className:"text-sm text-[#9C9C9C] max-w-xl mx-auto md:mx-0",children:["I’m a ",E.jsx("b",{children:"Frontend Developer"})," focused on building clean, responsive, and user-friendly web interfaces. I enjoy turning complex ideas into intuitive digital experiences using modern frontend technologies."]}),E.jsxs("a",{href:"./cv.pdf",download:"Tharisha_Deepthaka_CV.pdf",className:`
+    inline-flex items-center justify-center gap-2
+    bg-[#62BA1B] text-[#FFF6E9]
+    px-5 py-2 mt-4
+    rounded-sm
+    hover:opacity-90 transition
+  `,children:["Download CV",E.jsx("svg",{className:"w-5 h-5",xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24",stroke:"currentColor",strokeWidth:"2",children:E.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2m-8 1V4m0 12-4-4m4 4 4-4"})})]})]}),E.jsx("div",{className:"flex justify-center",children:E.jsx("div",{className:`
           bg-[url('/src/assets/img.png')]
           bg-cover bg-center
           w-[220px] h-[220px]
