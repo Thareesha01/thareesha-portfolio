@@ -39,33 +39,34 @@ function App() {
 
       </p>
 
-      <a
-        href="/cv.pdf"
-        download="Tharisha_Deepthaka_CV.pdf"
-        className="
-          inline-flex items-center justify-center gap-2
-          bg-[#62BA1B] text-[#FFF6E9]
-          px-5 py-2 mt-4
-          rounded-sm
-          hover:opacity-90 transition
-        "
-      >
-        Download CV
-        <svg
-          className="w-5 h-5"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth="2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2m-8 1V4m0 12-4-4m4 4 4-4"
-          />
-        </svg>
-      </a>
+   <a
+  href="./cv.pdf"
+  download="Tharisha_Deepthaka_CV.pdf"
+  className="
+    inline-flex items-center justify-center gap-2
+    bg-[#62BA1B] text-[#FFF6E9]
+    px-5 py-2 mt-4
+    rounded-sm
+    hover:opacity-90 transition
+  "
+>
+  Download CV
+  <svg
+    className="w-5 h-5"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    strokeWidth="2"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2m-8 1V4m0 12-4-4m4 4 4-4"
+    />
+  </svg>
+</a>
+
     </div>
 
     {/* RIGHT IMAGE */}
@@ -187,7 +188,7 @@ function App() {
   transition transform duration-300
   hover:bg-[#239c80] hover:scale-105"
 >
-  View case study
+  View On GitHub
   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24">
     <path
       stroke="currentColor"
@@ -226,7 +227,7 @@ function App() {
   Get In Touch
 </h1>
     <p className="mt-4 max-w-xl text-center text-[#9C9C9C]">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+      Feel free to get in touch with me for collaborations, project discussions, or any inquiries. I’m always open to connecting and exploring new opportunities.  
     </p>
   </div>
 

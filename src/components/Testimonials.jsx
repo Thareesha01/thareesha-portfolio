@@ -1,16 +1,20 @@
-import React from 'react';
-import { Quote } from 'lucide-react';
+import React from "react";
+import { Quote } from "lucide-react";
+
+// Import images correctly
+import duleeka from "../assets/duleeka.jpeg";
+import milinda from "../assets/milinda.jpeg";
+import gayan from "../assets/gayan.jpeg";
+import nadeera from "../assets/nadeera.jpeg";
 
 const TestimonialCard = ({ quote, name, image }) => {
   return (
     <div className="border border-gray-700 rounded-lg p-6 bg-black relative">
       <Quote className="w-8 h-8 text-gray-400 mb-4" />
-      <p className="text-gray-400 text-sm leading-relaxed mb-6">
-        {quote}
-      </p>
+      <p className="text-gray-400 text-sm leading-relaxed mb-6">{quote}</p>
       <div className="flex items-center gap-3">
-        <img 
-          src={image} 
+        <img
+          src={image}
           alt={name}
           className="w-12 h-12 rounded-full object-cover"
         />
@@ -24,31 +28,32 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      quote: "“Thareesha showed great dedication to learning and applying new technologies. His work ethic and technical growth were clearly visible throughout the project.” —CEO & Founder of C-Range International",
+      quote:
+        "“Thareesha showed great dedication to learning and applying new technologies. His work ethic and technical growth were clearly visible throughout the project.” —CEO & Founder of C-Range International",
       name: "Duleeka Jayathissa",
-      image: "src/assets/duleeka.jpeg"
-
-      
+      image: duleeka,
     },
     {
       id: 2,
-      quote: "“He demonstrated excellent problem-solving skills and a good understanding of both design and development. His ability to collaborate made working with him easy and productive.”— Team Lead at C-Range International",
+      quote:
+        "“He demonstrated excellent problem-solving skills and a good understanding of both design and development. His ability to collaborate made working with him easy and productive.”— Team Lead at C-Range International",
       name: "Milinda Ranasinghe",
-      image: "src/assets/milinda.jpeg"
+      image: milinda,
     },
     {
       id: 3,
-      quote: "“Thareesha consistently delivered clean, well-structured code and showed strong attention to detail. He quickly understood requirements and contributed effectively to team projects.”—Senior Web Developer at Revgenx",
+      quote:
+        "“Thareesha consistently delivered clean, well-structured code and showed strong attention to detail. He quickly understood requirements and contributed effectively to team projects.”—Senior Web Developer at Revgenx",
       name: "Gayan Madushanka",
-      image: "src/assets/gayan.jpeg"
-      
+      image: gayan,
     },
     {
       id: 4,
-      quote: "“Thareesha showed great dedication to learning and applying new technologies. His work ethic and technical growth were clearly visible throughout the project.” —Senior team member at ESU Uni",
+      quote:
+        "“Thareesha showed great dedication to learning and applying new technologies. His work ethic and technical growth were clearly visible throughout the project.” —Senior team member at ESU Uni",
       name: "Nadeera Lakshan",
-      image: "src/assets/nadeera.jpeg"
-    }
+      image: nadeera,
+    },
   ];
 
   return (
@@ -60,7 +65,11 @@ export default function Testimonials() {
             Testimonials
           </h2>
           <p className="text-gray-400 text-sm max-w-2xl mx-auto leading-relaxed">
-           Insights and feedback from senior developers, mentors, and team members I have worked with during academic and professional projects. Their perspectives highlight my technical skills, teamwork, problem-solving ability, and commitment to delivering high-quality work.
+            Insights and feedback from senior developers, mentors, and team
+            members I have worked with during academic and professional
+            projects. Their perspectives highlight my technical skills,
+            teamwork, problem-solving ability, and commitment to delivering
+            high-quality work.
           </p>
         </div>
 

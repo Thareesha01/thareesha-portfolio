@@ -1,13 +1,22 @@
 import React from "react";
 
+// Import icons
+import htmlIcon from "../assets/tech/HTML5.svg";
+import cssIcon from "../assets/tech/CSS3.svg";
+import bootstrapIcon from "../assets/tech/Bootstrap.svg";
+import reactIcon from "../assets/tech/React.svg";
+import nodeIcon from "../assets/tech/Node.js.svg";
+import muiIcon from "../assets/tech/Material UI.svg";
+import tailwindIcon from "../assets/tech/Tailwind CSS.svg";
+
 const techStack = [
-  { name: "HTML", icon: "src/assets/tech/HTML5.svg" },
-  { name: "CSS", icon: "src/assets/tech/CSS3.svg" },
-  { name: "Bootstrap", icon: "src/assets/tech/Bootstrap.svg" },
-  { name: "React", icon: "src/assets/tech/React.svg" },
-  { name: "Node.js", icon: "src/assets/tech/Node.js.svg" },
-  { name: "MUI", icon: "src/assets/tech/Material UI.svg" },
-  { name: "Tailwind CSS", icon: "src/assets/tech/Tailwind CSS.svg" },
+  { name: "HTML", icon: htmlIcon },
+  { name: "CSS", icon: cssIcon },
+  { name: "Bootstrap", icon: bootstrapIcon },
+  { name: "React", icon: reactIcon },
+  { name: "Node.js", icon: nodeIcon },
+  { name: "MUI", icon: muiIcon },
+  { name: "Tailwind CSS", icon: tailwindIcon },
 ];
 
 function TechStack() {
@@ -25,7 +34,6 @@ function TechStack() {
           <div
             key={tech.name}
             className="
-            float
               w-20 h-20 sm:w-24 sm:h-24
               bg-[#1B1B1B]
               rounded-full
